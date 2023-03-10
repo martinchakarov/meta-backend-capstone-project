@@ -1,9 +1,9 @@
 To create the same virtual environment that was used to create this project:
 
 1. Open your terminal in the same directory that this file is located in
-2. Execute the following command to create the virtual environment and install the dependencies:
+2. Execute the following command to create the virtual environment:
 
-    python3 -m venv env && pip3 install -r requirements.txt
+    python3 -m venv env
 
 3. Execute this command to activate the environment:
 
@@ -12,8 +12,12 @@ To create the same virtual environment that was used to create this project:
     OR
 
     .\env\Scripts\activate (Windows)
+    
+4. Execute this command to install the needed dependencies:
 
-4. When you're done reviewing, you can use the command 'deactivate' to exit the environment
+    pip3 install -r requirements.txt
+
+5. When you're done reviewing, you can use the command 'deactivate' to exit the environment
 
 --------------------
 
