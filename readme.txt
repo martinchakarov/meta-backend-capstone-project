@@ -56,4 +56,4 @@ Then, add the Bearer token to Insomnia
 
 4. Logging out
 
-[POST] http://127.0.0.1:8088/auth/token/logout/ - log out 
+[POST] http://127.0.0.1:8000/auth/token/logout/ - log out 
